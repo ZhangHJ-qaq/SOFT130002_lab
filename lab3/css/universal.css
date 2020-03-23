@@ -1,23 +1,8 @@
 .container{
-    display: flex;
-    flex-wrap: wrap;
     margin: 0;
-    justify-content: center;
     background-color: #f6f6f6;
 }
 header{
-    background-color: white;
-}
-.card{
-    border-radius: 10px;
-}
-.card-title{
-    background-image: linear-gradient(gainsboro,white);
-    text-align: center;
-    font-size: 150%;
-    font-weight: bold;
-}
-.card-body{
     background-color: white;
 }
 

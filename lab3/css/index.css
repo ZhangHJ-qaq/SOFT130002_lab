@@ -1,51 +1,61 @@
-header{
-    flex-basis: 100%;
+header a{
+    margin-left: 1%;
+    margin-right: 1%;
     font-size: 150%;
+    font-weight: bold;
+    color: black;
+    text-decoration: none;
+}
+header{
     display: flex;
     align-items: center;
-    background: white;
-    font-weight: bold;
 }
-header>a{
+header>.right{
+    flex-grow:1;
+    text-align: right;
+}
+aside{
+    width: 25%;
     margin-left: 2%;
-    margin-right: 2%;
+    margin-right: 3%;
+    float: right;
+    background-color: white;
+    margin-top: 2%;
+}
+main{
+    width: 60%;
+    background-color: white;
+    float: left;
+    margin: 2% 3% 2% 2%;
+    padding: 2%;
+}
+main>section{
+    border: gainsboro solid 1px;
+    border-radius: 5px;
+    margin: 2%;
+    padding: 3%;
+}
+
+aside li{
+    margin: 5px;
+
+}
+aside li a{
     color: black;
 }
 
-main{
-    flex-basis: 70%;
-    background: white;
-    margin-left: 5%;
-    margin-right: 5%;
-    margin-top: 2%;
-    margin-bottom: 2%;
-}
-
-aside{
-    margin: 2%;
-    flex-basis: 16%;
-    background-color: white;
-}
-
-
-main>section{
-    border: gainsboro solid 2px;
-    border-radius: 5px;
-    margin: 2%;
-    padding: 2%;
-}
-main>section>*{
-    margin: 2%;
-}
-
 .consent{
-    border-radius: 5px;
     background-color: dodgerblue;
     color: white;
-    padding: 2px;
+    border-radius: 3px;
+    padding: 5px;
+}
+main>section>*{
+    margin: 10px;
 }
 
 .pagination{
     text-align: center;
 }
+
 
