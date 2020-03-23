@@ -1,0 +1,37 @@
+header{
+    flex-basis: 100%;;
+    font-size: 150%;
+}
+header>a{
+    margin-left: 90%;
+    color: black;
+}
+
+form{
+    flex-basis: 70%;
+    margin: 5%;
+}
+
+
+.card-body{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 5%;
+    font-size: 110%;
+}
+.row{
+    flex-basis: 100%;
+    margin: 5px;
+    justify-content: center;
+    display: flex;
+}
+input[type=text],input[type=password]{
+    width:70%;
+    height: 30px;
+    border-radius: 5px;
+}
+
+
+
+
