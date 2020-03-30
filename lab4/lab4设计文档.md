@@ -2,7 +2,7 @@
 
 ## 作业效果图
 
-![](C:\Users\Zhang H.J\Documents\MyRepositories\SOFT130002_lab\lab4\FireShot Capture 002 - Home - .png)
+![](FireShot Capture 002 - Home - .png)
 
 ## 设计内容
 
