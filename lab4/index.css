@@ -1,0 +1,11 @@
+.panel-body>img{
+    float: left;
+    border-right-width: 10px;
+    border-style: solid;
+    border-color: white;
+}
+footer{
+    background: black;
+    color: white;
+    font-size: 120%;
+}
